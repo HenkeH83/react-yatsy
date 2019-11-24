@@ -1,0 +1,25 @@
+.mainBoard{
+  padding: 10px;
+  font-size: 32px;
+}
+
+.diceBoard{
+  font-size: 16;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+button{
+  background-color: #6679ff;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 18px;
+  border: none;
+  border-radius: 5%;
+}
+
+#rollBtn{
+  font-size: 50px;
+  margin: 20px;
+}
