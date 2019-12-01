@@ -1,25 +1,28 @@
-.mainBoard{
+.mainBoard {
   padding: 10px;
   font-size: 32px;
 }
 
-.diceBoard{
+.diceBoard {
+  height: 150px;
   font-size: 16;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   margin: 10px;
 }
 
-button{
+button {
   background-color: #6679ff;
   color: #ffffff;
   font-size: 20px;
   padding: 18px;
   border: none;
   border-radius: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-#rollBtn{
+#rollBtn {
   font-size: 50px;
   margin: 20px;
 }
