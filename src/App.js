@@ -16,7 +16,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // showInstallPromotion();
 });
 
-const runDownLoad (e) => {
+const runDownLoad = (e) => {
   console.log('Knappen är tryckt');
   // Hide the app provided install promotion
   // hideMyInstallPromotion();
@@ -30,7 +30,7 @@ const runDownLoad (e) => {
       console.log('User dismissed the install prompt');
     }
   })
-});
+};
 
   return (
     <div className="App">
